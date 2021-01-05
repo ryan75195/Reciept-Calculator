@@ -1,0 +1,35 @@
+Goals:
+
+    MVP:
+        -Extract Item Names From Reciept                                                                    [X]
+        -If name does not exist in file, ask user if name is valid and add it to file along with its data   [X]
+        -Extract total cost from reciept                                                                    [X]
+        -Extract card number from reciept                                                                   [X]
+
+        -Handle cash payments                                                                               []
+        -handle duplicate entries in db                                                                     [x]
+        -Strip characters after words (*,x,...)                                                             [x]
+        -Add skip option for dealing with db entries                                                        [x]
+        -Come up with recommender if item is not recognised but similar item exists in db                   []
+        -add slider for colour range                                                                        [x]
+        -resize image popup                                                                                 [x]
+        -implement debt logic                                                                               []
+        -implement other stores/reciepts                                                                    []
+        -handle price deductions                                                                            []
+
+    Extras:
+        -Automate transfer of funds                                                                         []
+        -Analytics/Optimisation of collected data                                                           []
+            -Most expensive items
+            -Frequently purchased items
+            -Shopping Times
+            -Health/Nutrition
+            -Value per item
+                -price
+                -taste
+                -nutrition
+                -function
+        -Automate shopping list based on previous products                                                  []
+Classes:
+    -Reciept
+    -files
